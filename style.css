@@ -31,7 +31,7 @@ body{
 
 .fuel-calc button[type="reset"]{
     background-color: transparent;
-    color: red;
+    color: #ff0000;
     border: none;
     outline: none;
     cursor: pointer;
