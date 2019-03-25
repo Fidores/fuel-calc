@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #303030;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* font-family: 'Roboto', sans-serif; */
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+.main-heading{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0x 5px;
+}
+
+.fuel-calc{
+    max-width: 600px;
+    margin: 0px auto; 
+    padding: 10px;  
+}
+
+.fuel-calc .footer{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+}
+
+.fuel-calc button[type="reset"]{
+    background-color: transparent;
+    color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.fuel-calc button[type="reset"]:active > i{
+    transform: scale(0.8);
+}
+
+.input-control{
+    width: 100%;
+    background-color: #3D3D3D;
+    border: none;
+    font-size: 16px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    outline: none;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+.input-control::placeholder{
+    color: #858585;
+    font-size: 14px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}

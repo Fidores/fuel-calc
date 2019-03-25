@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./assets/fuel.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator paliwa</title>
+</head>
+<body>
+    <h1 class="main-heading">Kalkulator zużycia paliwa</h1>
+
+    <form action="#" class="fuel-calc">
+        <div class="form-group">
+            <input class="input-control" type="number" name="distance" placeholder="Przejechany dystans od ostatniego tankowania (km)">
+        </div>
+
+        <div class="form-group">
+            <input class="input-control" type="number" name="tanked-fuel" placeholder="Ilość zatankowanego paliwa (l)">
+        </div>
+
+        <div class="form-group footer">
+            <p>Spalanie na poziomie: <b><span class="fuel-consumption">0</span>l / 100 km.</b></p>
+            <button type="reset"><i class="fas fa-redo-alt fa-lg"></i></button>
+        </div>
+    </form>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
